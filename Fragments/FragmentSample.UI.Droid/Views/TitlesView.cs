@@ -1,8 +1,9 @@
+using System;
 using Android.App;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.Droid.Fragging;
-using Cirrious.MvvmCross.ViewModels;
 using FragmentSample.Core.ViewModels.Shakespeare;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Droid.Support.V7.Fragging;
+using MvvmCross.Platform;
 
 namespace FragmentSample.UI.Droid.Views
 {
@@ -62,5 +63,6 @@ namespace FragmentSample.UI.Droid.Views
 
             return true;
         }
+
     }
 }

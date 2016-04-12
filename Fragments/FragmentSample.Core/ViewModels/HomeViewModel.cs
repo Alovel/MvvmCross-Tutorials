@@ -1,9 +1,9 @@
 ﻿using System.Windows.Input;
-using Cirrious.MvvmCross.ViewModels;
 using FragmentSample.Core.ViewModels.Dialog;
 using FragmentSample.Core.ViewModels.Form;
 using FragmentSample.Core.ViewModels.Shakespeare;
 using FragmentSample.Core.ViewModels.Tab;
+using MvvmCross.Core.ViewModels;
 
 namespace FragmentSample.Core.ViewModels
 {

@@ -1,8 +1,8 @@
 using Android.App;
 using Android.Widget;
-using Cirrious.MvvmCross.Droid.Fragging;
-using Cirrious.MvvmCross.Droid.Fragging.Fragments;
 using FragmentSample.Core.ViewModels.Form;
+using MvvmCross.Droid.Support.V7.Fragging;
+using MvvmCross.Droid.Support.V7.Fragging.Fragments;
 
 namespace FragmentSample.UI.Droid.Views
 {
@@ -26,16 +26,16 @@ namespace FragmentSample.UI.Droid.Views
             SetListFragmentDataContext();
 
             _firstFragment = new MyFirstFragment()
-                {
-                    ViewModel = ViewModel
-                };
+            {
+                ViewModel = ViewModel
+            };
             _secondFragment = new MySecondFragment()
-                {
-                    ViewModel = ViewModel
-                };
+            {
+                ViewModel = ViewModel
+            };
 
             _showingFirst = true;
-            ShowFormHeaderFragment(_firstFragment);
+            ShowFormHeaderFragment((MvxFragment)_firstFragment);
 
             var b = FindViewById<Button>(Resource.Id.switchFragmentButton);
             b.Click += (s, e) => SwitchHeaders();
@@ -52,7 +52,7 @@ namespace FragmentSample.UI.Droid.Views
 
         private void SetListFragmentDataContext()
         {
-            var listFragment = (MyListFragment) SupportFragmentManager.FindFragmentById(Resource.Id.list_fragment);
+            var listFragment = (MyListFragment)this.SupportFragmentManager.FindFragmentById(Resource.Id.list_fragment);
             listFragment.ViewModel = ViewModel;
         }
 

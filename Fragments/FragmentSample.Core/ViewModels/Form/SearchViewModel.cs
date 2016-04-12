@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Input;
-using Cirrious.CrossCore;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.ViewModels;
 using FragmentSample.Core.Services.Search;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
+using MvvmCross.Platform.Platform;
 
 namespace FragmentSample.Core.ViewModels.Form
 {

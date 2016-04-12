@@ -1,6 +1,6 @@
+using MvvmCross.Platform.Converters;
 using System;
 using System.Globalization;
-using Cirrious.CrossCore.Converters;
 
 namespace FragmentSample.Core.Converters
 {

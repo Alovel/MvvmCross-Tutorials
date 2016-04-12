@@ -1,5 +1,5 @@
 ﻿using Android.App;
-using Cirrious.MvvmCross.Droid.Views;
+using MvvmCross.Droid.Views;
 
 namespace FragmentSample.UI.Droid
 {

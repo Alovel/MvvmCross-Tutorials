@@ -1,12 +1,14 @@
-﻿using Cirrious.CrossCore.IoC;
-using Cirrious.MvvmCross.ViewModels;
+﻿
 using FragmentSample.Core.ViewModels;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.IoC;
 
 namespace FragmentSample.Core
 {
     public class App
-        : MvxApplication
-    {
+        :  MvxApplication
+    { 
+
         public override void Initialize()
         {
             base.Initialize();
