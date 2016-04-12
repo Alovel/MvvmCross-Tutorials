@@ -1,10 +1,13 @@
 using Android.OS;
+using Android.Runtime;
 using Android.Views;
 using MvvmCross.Binding.Droid.BindingContext;
-using MvvmCross.Droid.Support.V7.Fragging.Fragments;
+using MvvmCross.Droid.FullFragging.Fragments;
+
 
 namespace FragmentSample.UI.Droid.Views
 {
+    [Register("fragmentsample.ui.droid.views.Tab2Fragment")]
     public class Tab2Fragment : MvxFragment
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container,
