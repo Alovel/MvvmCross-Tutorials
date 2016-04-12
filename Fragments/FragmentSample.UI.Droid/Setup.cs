@@ -70,6 +70,7 @@ namespace FragmentSample.UI.Droid
         {
             pluginManager.EnsurePluginLoaded<MvvmCross.Plugins.File.PluginLoader>();
             pluginManager.EnsurePluginLoaded<MvvmCross.Plugins.DownloadCache.PluginLoader>();
+            pluginManager.EnsurePluginLoaded<MvvmCross.Plugins.Json.PluginLoader>();
             base.LoadPlugins(pluginManager);
         }
     }

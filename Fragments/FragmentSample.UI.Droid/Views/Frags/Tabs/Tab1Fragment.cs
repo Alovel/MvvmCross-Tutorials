@@ -7,6 +7,11 @@ namespace FragmentSample.UI.Droid.Views
 {
     public class Tab1Fragment : MvxFragment
     {
+        public Tab1Fragment()
+            : base()
+        {
+        }
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container,
                                           Bundle savedInstanceState)
         {
