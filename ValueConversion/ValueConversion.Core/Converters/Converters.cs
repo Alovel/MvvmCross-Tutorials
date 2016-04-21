@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Globalization;
-using Cirrious.CrossCore.Converters;
-using Cirrious.CrossCore.UI;
-using Cirrious.MvvmCross.Plugins.Color;
+
 
 namespace ValueConversion.Core.Converters
 {

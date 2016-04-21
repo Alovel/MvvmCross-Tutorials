@@ -1,5 +1,4 @@
 using Android.App;
-using Cirrious.MvvmCross.Droid.Views;
 
 namespace ValueConversion.UI.Droid.Views
 {

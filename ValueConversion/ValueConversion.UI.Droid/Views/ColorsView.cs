@@ -1,10 +1,9 @@
 using Android.App;
-using Cirrious.MvvmCross.Droid.Views;
 
 namespace ValueConversion.UI.Droid.Views
 {
     [Activity]
-    public class ColorsView : MvxActivity
+    public class ColorsView : MvxAcitvity
     {
         protected override void OnViewModelSet()
         {
